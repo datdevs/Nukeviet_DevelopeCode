@@ -1,0 +1,4 @@
+[Wed, 18 Aug 2021 17:21:02 +0700] [nukevietcode.io] [::1] [Run-time notices(8192): The each() function is deprecated. This message will be suppressed on further calls] [FILE: /modules/download/admin/main.php] [LINE: 272] [TRACE:]
+#1  LINE: 175   FILE: /admin/index.php
+#2  LINE: 272   FILE: /modules/download/admin/main.php
+

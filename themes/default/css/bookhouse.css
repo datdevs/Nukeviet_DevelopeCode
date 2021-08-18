@@ -1,0 +1,272 @@
+/**
+ * @Project NUKEVIET 4.x
+ * @Author VINADES.,JSC (contact@vinades.vn)
+ * @Copyright (C) 2014 VINADES.,JSC. All rights reserved
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate Wed, 13 Aug 2014 00:24:32 GMT
+ */
+.detail_bar {
+    background: #CCCCCC url('../images/bookhouse/background-striped.png');
+    width: 100%;
+    height: 20px;
+    margin: 20px 0 15px 0;
+    text-transform: uppercase;
+}
+
+.detail_bar span {
+    display: inline-block;
+    background-color: #FFFFFF;
+    padding: 2px 6px 6px 0
+}
+
+.hometext {
+    font-style: italic;
+    font-weight: bold
+}
+
+/* jssor slider arrow navigator skin 02 css */
+/*
+.jssora02l              (normal)
+.jssora02r              (normal)
+.jssora02l:hover        (normal mouseover)
+.jssora02r:hover        (normal mouseover)
+.jssora02ldn            (mousedown)
+.jssora02rdn            (mousedown)
+*/
+.jssora02l, .jssora02r, .jssora02ldn, .jssora02rdn {
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background: url('../images/bookhouse/a02.png') no-repeat;
+    overflow: hidden;
+}
+
+.jssora02l {
+    background-position: -3px -33px;
+}
+
+.jssora02r {
+    background-position: -63px -33px;
+}
+
+.jssora02l:hover {
+    background-position: -123px -33px;
+}
+
+.jssora02r:hover {
+    background-position: -183px -33px;
+}
+
+.jssora02ldn {
+    background-position: -243px -33px;
+}
+
+.jssora02rdn {
+    background-position: -303px -33px;
+}
+
+/* jssor slider thumbnail navigator skin 03 css */
+/*
+.jssort03 .p            (normal)
+.jssort03 .p:hover      (normal mouseover)
+.jssort03 .pav          (active)
+.jssort03 .pav:hover    (active mouseover)
+.jssort03 .pdn          (mousedown)
+*/
+.jssort03 .w, .jssort03 .pav:hover .w {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    border: white 1px dashed;
+}
+
+* html .jssort03 .w {
+    width /**/: 62px;
+    height /**/: 32px;
+}
+
+.jssort03 .pdn .w, .jssort03 .pav .w {
+    border-style: solid;
+}
+
+.jssort03 .c {
+    width: 62px;
+    height: 32px;
+    filter: alpha(opacity = 45);
+    opacity: .45;
+    transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -webkit-transition: opacity .6s;
+    -o-transition: opacity .6s;
+}
+
+.jssort03 .p:hover .c, .jssort03 .pav .c {
+    filter: alpha(opacity = 0);
+    opacity: 0;
+}
+
+.jssort03 .p:hover .c {
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+}
+
+.loading {
+    position: absolute;
+    display: block;
+    background: url('../images/bookhouse/loading.gif') no-repeat center center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%
+}
+
+/* maps */
+#map-canvas {
+    width: 100%;
+    height: 300px;
+    text-align: center
+}
+
+.fb-like {
+    height: 30px;
+    margin-right: 34px;
+}
+
+ul.listnews, ul.list {
+    margin: 0;
+    padding: 0;
+}
+
+ul.listnews li {
+    margin-bottom: 10px;
+}
+
+ul.listnews li img {
+    margin-right: 5px;
+}
+
+ul.items_note {
+    padding: 10px;
+    list-style: circle;
+}
+
+.images .plupload_container {
+    padding: 0 !important
+}
+
+.images .info-image-number, .images .btn-submit, .images #uploader {
+    display: none
+}
+
+.images .new-images-append {
+    border: 1px solid #003794
+}
+
+.images #upload {
+    position: relative
+}
+
+.images .close-upload {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    color: #FFFFFF
+}
+
+.thumbnail .caption h3 {
+    height: 44px
+}
+
+.thumbnail .image {
+    margin-bottom: 5px
+}
+
+.block_new_items_list .image {
+    margin-right: 6px
+}
+
+.block_new_items_list .item-detail {
+    display: table
+}
+
+.block_new_items_list .item-detail label {
+    width: 90px
+}
+
+.block_new_items_list .item-detail ul {
+    font-size: 12px;
+    line-height: 12px
+}
+
+.tab-pane {
+    padding: 10px 0 10px 0
+}
+
+table.table-middle td {
+    vertical-align: middle !important
+}
+
+table.table-middle td span.help-block, table.table-middle td span.help-block ul {
+    margin-bottom: 0;
+    font-size: 12px
+}
+
+ul .vip {
+    color: red
+}
+
+ul .hot {
+    color: blue
+}
+
+.viewlist .image {
+    margin-right: 10px
+}
+
+.viewlist .panel-body ul li {
+    margin-bottom: 5px
+}
+
+.viewlist ul.list-info {
+    font-size: 12px
+}
+
+.socialbutton ul li {
+    margin: 0
+}
+
+.viewlist ul.item-detail li label {
+    width: 120px
+}
+
+#detail ul.list-info, .payment ul.list-info, .upgrade ul.list-info {
+    padding: 0;
+    font-size: 14px;
+    margin-top: 5px
+}
+
+.price {
+    color: #af251b;
+    font-weight: bold
+}
+
+.other-image-item {
+    position: relative;
+}
+
+.other-image-item .fa-times-circle {
+    position: absolute;
+    top: -6px;
+    right: -7px;
+    color: red
+}
+
+.panel select {
+    font-size: 13px !important
+}
+
+td .price_discount {
+    margin-top: 10px
+}
